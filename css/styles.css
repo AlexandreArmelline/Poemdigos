@@ -12,32 +12,38 @@ main{
     background-image: url(/img/banner.gif);
     background-size: cover;
     background-attachment: fixed;
-    height: 2500px;
+    height: 107rem;
+    padding: 5vw 0vw;
+   
+}
+
+#container{
+    width: 81.2vw;
+    margin: auto;    
    
 }
 
 #bxBranco{
  background-color: white;
- padding: 20px;
- border-radius: 30px;
- margin: 5% 25%;
- position: absolute;
-
+ padding: 2vw 1vw;
+ border-radius: 1.5rem;
+ width: 51.5vw;
+ margin: auto;
 
 }
 
 #texto{ 
     text-align: center;
     border: dashed #B7A765 2px;
-    padding: 30px 90px;
-    border-radius: 30px;
+    padding: 1vw 8vw;
+    border-radius: 1.5rem;
 }
 
 #texto h1{
     font-family: "Dekko", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 60px;
+    font-size: 5vw;
     
 }
 
@@ -45,33 +51,30 @@ main{
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 20px;
-    padding: 15px 0px;
-    
+    font-size: 1.4vw;
+    line-height: 1.5em;
+    padding: 1vw 0vw;
     
 }
 
 #anjinho_direito{
-    width: 300px;
+    width: 13.8vw;
     float: right;
     position: sticky;
-    top: 0;
-    
-    
-    
+    top: 15vw;
+}
+
+#anjinho_esquerdo{
+    width: 25vw;
+    float: left;
+    position: fixed;
+    bottom: 0;
+    left: 1.5vw;
     
 }
 
-#anjinho_esquerdo img{
-    width: 200px;
-    
-    
-}
-
-#teste{
-    border: solid black;
-    
-    
+#bxBranco:hover{
+  box-shadow: -2px -2px 15px rgba(0, 0, 0, 0.342);
 }
 
 
