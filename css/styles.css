@@ -77,12 +77,22 @@ main{
 }
 
 #bxBranco:hover{
-  box-shadow: 0px 0px 30px rgba(248, 223, 0, 0.5);
+  box-shadow: 0px 0px 60px rgba(0, 248, 186, 0.5);
+  transition: .5s;
+
+  
 }
 
 #anjinho_direito:hover{
-    display: none;
-   
+    transform: rotate(-360deg);
+    
+    transition: 1s;
+}
+
+#anjinho_esquerdo:hover{
+    transform: translate(50px, -20px);
+    transition: 2s;
+    
 }
 
 
