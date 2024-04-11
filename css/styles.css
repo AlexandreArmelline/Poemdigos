@@ -4,7 +4,7 @@
 *{
     margin: 0px;
     padding: 0px;
-   
+  
 
 }
 
@@ -57,13 +57,13 @@ main{
     
 }
 
+
 #anjinho_direito{
     width: 13.8vw;
     float: right;
     position: sticky;
     top: 15vw;
- 
-   
+    
 }
 
 
@@ -73,19 +73,22 @@ main{
     position: fixed;
     bottom: -3vh;
     left: 1.5vw;
+    animation: 2s movimentar infinite alternate;
     
 }
 
 #bxBranco:hover{
   box-shadow: 0px 0px 60px rgba(0, 248, 186, 0.5);
+  opacity: 70%;
   transition: .5s;
-
+  
+  
+  
   
 }
 
 #anjinho_direito:hover{
     transform: rotate(-360deg);
-    
     transition: 1s;
 }
 
@@ -93,7 +96,26 @@ main{
     transform: translate(50px, -20px);
     transition: 2s;
     
+    
 }
+
+
+
+
+
+@keyframes movimentar {
+    from{
+        transform: translate(0px, 0px);
+    }
+    to{
+        transform: translate(-50px, 100px);
+    }
+}
+
+
+
+
+
 
 
 
